@@ -1,6 +1,5 @@
 import React from "react";
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
-import { FontAwesome5, FontAwesome } from 'react-native-vector-icons';
 
 export default function Header({ user }){
     return(
@@ -10,7 +9,7 @@ export default function Header({ user }){
                     {user}
                 </Text>
                 <TouchableOpacity style={styles.profile}>
-
+                    /* Image or Icon */
                 </TouchableOpacity>
             </View>
         </View>
